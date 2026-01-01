@@ -1,0 +1,45 @@
+
+Byte Stream in Java
+
+Java IO :-
+ Terms used in Java IO :-
+	1. Input Devices : Keyboard, mouse, Optical pen, Joystick etc
+	2. Output Devices : Screen, Head Set, Printers, Speakers etc
+	3. Stream : Flow of data, Real world example Water flow
+
+
+=> Stream : Stream is a medium which allow the data to flow from input devices to 
+		    java application or from java application to output devices
+
+-> In java there are 3 predefined stream which transfer the data from CMD to java application which are as follows :-
+1. System.out
+2. System.in
+3. System.err
+
+-> To transfer the data from input devices to java application or java application to output devices, java has 
+provided many classes which are present in java.io package
+
+
+-> Types of Streams :-
+	1. Byte Stream
+	2. Character Stream
+
+-----------------------------------------------------------------------------------------------------------------
+
+=> Byte Stream :-
+-> In this stream data is transfered in the form of bytes i.e. 0 and 1
+-> The length of byte stream is 1 byte
+
+
+-> Types of byte stream :-
+1. InputStream
+	-> public int read(-) throws IOException
+	-> public int available() throws IOException
+	-> public void close() throws IOException
+
+2. OutputStream
+	-> public void write(-) throws IOException
+	-> public void flush() throws IOException
+	-> public void close() throws IOException
+	-> Hierarchy of InputStream and OutputStream classes :-
+
