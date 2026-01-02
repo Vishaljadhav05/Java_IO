@@ -1,0 +1,27 @@
+=> Character Stream :
+    -> It is used to transfer the data in characters form
+    -> In character stream the length of data is 2 bytes
+
+
+-> Types of Character Stream :-
+1. Reader
+    -> read(-)
+    -> close()
+2. Writer
+    -> write()
+    -> close()
+
+-----------------------------------------------------------------------------------------------------------------
+
+=> Object is the parent class or all the classes in java and thus InputStream, OutputStream, 
+Reader & Writer classes comes directly in Object class.
+
+-----------------------------------------------------------------------------------------------------------------
+
+=> Dynamic Input Approches :-
+
+-> Dynamic Input Approch is the way by which programmer take the input value at runtime
+-> There are 3 ways for dynamic input approch
+    1. Scanner
+    2. BufferedReader
+    3. Console
