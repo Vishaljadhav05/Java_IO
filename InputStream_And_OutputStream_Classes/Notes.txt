@@ -1,0 +1,39 @@
+=> FileInputStream :-
+
+    -> FileInputStream is used to read the data for eg text, image, video, audio etc in the form of bytes.
+    -> FileInputStream can read the character stream data also, but you should use FileReader to 
+       read character type of data.
+    -> In this case, if file/data is not found, then it will throw FileNotFoundException.
+
+=> FileOutputStream :-
+    -> FileOutputStream is used to write the data for eg text, image, video, audio etc in the form of bytes.
+    -> FileOutputStream can read the character stream data also but you should use FileWriter to 
+       write character stream data.
+    -> In this case if file is not found, then it will create new file.
+
+-------------------------------------------------------------------------------------------------------------
+
+=> ByteArrayInputStream :-
+    -> ByteArray + InputStream : As name suggests, ByteArrayInputStream can be used to read ByteArray data 
+       only as an input stream.
+    -> ByteArrayInputStream uses internal buffer to read the byte array data.
+
+=> ByteArrayOutputStream :-
+    -> ByteArrayOutputStream is used to write the common data to multiple files.
+
+-------------------------------------------------------------------------------------------------------------
+
+=> FilterInputStream :
+    -> FileInputStream is less used because it provides sub-classes for more functionalities i.e. DataInputStream, 
+         BufferedInputStream & PushBackInputStream
+
+=> FilterOutputStream :-
+    -> FilterOutputStream is less used because it provides sub-class for more functionalities i.e. DataOutputStream, 
+         BufferedOutputStream & PrintStream
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
