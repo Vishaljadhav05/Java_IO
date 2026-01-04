@@ -67,6 +67,14 @@
     -> These streams are used to transfer the data from one thread to another thread.
     -> Both these streams should be connected.
 
+    Thread 1                                                         Thread 2
+    |                                                                   |
+    |                                                                   |
+    |   -----> [ PipedInputStream ] -----> [ PipedOutputStream ] -----> |
+    |                                                                   |
+    |                                                                   |
+
+
 ----------------------------------------------------------------------------------------------------------------------
 
 => ObjectInputStream & ObjectOutputStream :-
