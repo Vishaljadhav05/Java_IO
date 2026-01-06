@@ -26,10 +26,30 @@
 
 => BufferedWriter :-
     -> BufferedWriter is used to write the char array or string into the file.
-
+    -> BufferedWriter performance is fast.
     
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+=> LineNumberReader :-
+    -> LineNumberReader is a buffered character input stream which keeps the track of line numbers.
+
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+=> CharArrayReader :-
+    -> CharArray + Reader : As the name suggests it is used to read the character array stream.
+
+=> CharArrayWriter :-
+    -> CharArray + Writer : It is used to write the common data to multiple file.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+=> FilterReader :-
+    -> FilterReader is used to perform filtering operations on reader stream.
+    -> FilterReader is an abstract class.
+    
+=> FilterWriter :-
+    -> FilterWriter class is used to write filtered character stream.
+    -> FilterWriter is an abstract class.
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
