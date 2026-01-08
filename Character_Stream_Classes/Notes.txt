@@ -51,10 +51,26 @@
     -> FilterWriter class is used to write filtered character stream.
     -> FilterWriter is an abstract class.
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+=> PushbackReader :-
+    -> PushbackReader is used to push back the one character into stream and read again.
+
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+=> PipedReader :-
+    -> PipedReader is used to read the content from a pipe as character stream.
+    -> It is used in case of multiple threads.
+
+=> PipedWriter :-
+    -> PipedWriter is used to write the content to a pipe as a character stream.
+    -> It is also used in case of multiple threads.
+
 -----------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------
+
+=> StringReader :-
+    -> StringReader is character stream which string as a source.
+
+=> StringWriter :-
+    -> StringWriter is a character stream which can be used to write data from string as a source.
+
 -----------------------------------------------------------------------------------------------------------------------------------------

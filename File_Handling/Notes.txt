@@ -1,0 +1,12 @@
+
+FILE HANDLING:- 
+
+=> File :
+    -> A file is an object on a computer which stores the data, information, settings, commands etc.
+    -> There are many file operations for eg. creating new file, rename file, deleting file, writing into file, reading from the file etc.
+    
+-> There are 2 ways by which we can read data form the file :-
+    1. Sequential Access : In this way we can read or write the data in sequential form i.e. from beginning or starting of the file.
+    2. Random Access : In this way we can read or write the data in random way i.e. from any location of the file.
+
+-> To perform these operations java provided many classes and methods but main class is "java.io.File" class.
