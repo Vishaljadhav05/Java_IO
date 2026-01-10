@@ -10,3 +10,13 @@ FILE HANDLING:-
     2. Random Access : In this way we can read or write the data in random way i.e. from any location of the file.
 
 -> To perform these operations java provided many classes and methods but main class is "java.io.File" class.
+
+
+    => Sequential Access : done in the programs using java.io.File class
+
+    => Random Access :
+        -> To read and write the files in random way, we have to use "java.io.RandomAccessFile" class.
+        -> There can permissions i.e "r" or "rw".
+        -> writeXXX(XXX value).
+           readXXX(XXX value)
+           seek(long pos)
